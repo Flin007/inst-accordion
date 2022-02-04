@@ -5,9 +5,56 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONTAWSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- JQ CDN -->
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
     <title>Inst Accordion</title>
+
 </head>
 <body>
-
+<div class="wrapper">
+    <ul id="accordion" class="accordion">
+        <li>
+            <div class="link"><i class="fa fa-database"></i>Web Design<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Photoshop</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="link"><i class="fa fa-code"></i>Coding<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">Ruby</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="link"><i class="fa fa-mobile"></i>Devices<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Tablet</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Desktop</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="link"><i class="fa fa-globe"></i>Global<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Bing</a></li>
+                <li><a href="#">Yahoo</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- JS FILES -->
+<script src="js/main.js"></script>
 </body>
 </html>
